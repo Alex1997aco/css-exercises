@@ -8,8 +8,10 @@ img {
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+  .items {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .all {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .item1, .item2, .item3, .item4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+  }
+
+  .text {
+    text-align: center;
+  }
